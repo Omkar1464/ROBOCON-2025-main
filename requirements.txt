@@ -1,0 +1,11 @@
+# Python dependencies for R1 ROS nodes (ROS Noetic / Python 3)
+
+# ROS packages — install via apt on Ubuntu 20.04 + Noetic:
+#   sudo apt install ros-noetic-rospy ros-noetic-sensor-msgs \
+#                    ros-noetic-geometry-msgs ros-noetic-std-msgs \
+#                    ros-noetic-joy
+
+pigpio>=1.78
+pyserial>=3.5
+adafruit-blinka>=8.0.0
+adafruit-circuitpython-bno055>=5.4.0

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Robocon 2025 Robot Basketball: Dual-Robot Control Software"
+type: software
+authors:
+  - name: "Robocon 2025 Team"
+abstract: >-
+  Dual-robot software stack for ABU Robocon 2025 Robot Basketball.
+  R1 (offense) runs ROS Noetic field-centric drive with active heading
+  lock and FreeRTOS encoder odometry. R2 (defense) runs bare-metal
+  Arduino Due firmware with 3-wheel omni IK and encoder-gated net deployment.
+keywords:
+  - ABU Robocon
+  - ROS Noetic
+  - omnidirectional drive
+  - FreeRTOS
+  - ESP32
+  - Arduino Due
+  - active heading lock
+license: MIT
+version: "1.0.0"
+date-released: "2025-04-08"
