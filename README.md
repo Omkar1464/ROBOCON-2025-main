@@ -20,7 +20,7 @@
 - **Inter-controller communication:** ESP32 odometry streamed to the Raspberry Pi over USART, the Pi to upper-control ESP32 link, and ESP32 to Arduino Due via EasyTransfer.
   - `r1_offense/firmware/esp32_odometry_rtos/`
   - `docs/ARCHITECTURE.md`
-- **Circuit design:** [power distribution, motor driver wiring, ESC and pneumatic connections. Link the schematic or wiring diagram here]
+- **Circuit design:** [power distribution, motor driver wiring, ESC and pneumatic connections]
   - `docs/HARDWARE.md`
 
 Original repo: [https://github.com/DivyavardhanSingh/ROBOCON-2025-main]
