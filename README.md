@@ -9,6 +9,22 @@
 > **ABU Robocon 2025** — India National Round  
 > Dual-robot software stack for competitive Robot Basketball: ROS-based offense and bare-metal defense.
 
+
+## My contribution (Omkarsinh)
+
+- **Omnidirectional drive, both robots:** 4-wheel omni (45°) inverse kinematics and field-centric drive on R1, and 3-wheel omni (120°) kinematics with heading lock on R2.
+  - `r1_offense/ros_ws/motion_controller.py`
+  - `r2_defense/firmware/due_omni_controller/due_omni_controller.ino`
+- **Shooting mechanism:** BLDC shooter via ESC, stepper aiming and pneumatics.
+  - `r1_offense/firmware/upper_control/upper_control.ino`
+- **Inter-controller communication:** ESP32 odometry streamed to the Raspberry Pi over USART, the Pi to upper-control ESP32 link, and ESP32 to Arduino Due via EasyTransfer.
+  - `r1_offense/firmware/esp32_odometry_rtos/`
+  - `docs/ARCHITECTURE.md`
+- **Circuit design:** [power distribution, motor driver wiring, ESC and pneumatic connections. Link the schematic or wiring diagram here]
+  - `docs/HARDWARE.md`
+
+Original repo: [https://github.com/DivyavardhanSingh/ROBOCON-2025-main]
+Timeline: Built Nov 2024 – Jul 2025. Documentation added Oct 2026.
 ---
 
 ## Abstract
