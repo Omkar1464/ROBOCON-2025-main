@@ -10,7 +10,7 @@
 > Dual-robot software stack for competitive Robot Basketball: ROS-based offense and bare-metal defense.
 
 
-## My contribution (Omkarsinh)
+## My contribution
 
 - **Omnidirectional drive, both robots:** 4-wheel omni (45°) inverse kinematics and field-centric drive on R1, and 3-wheel omni (120°) kinematics with heading lock on R2.
   - `r1_offense/ros_ws/motion_controller.py`
