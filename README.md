@@ -12,6 +12,11 @@
 
 ## My contribution
 
+**Role:** Builder (hardware and firmware)  
+**Team:** Robocon Electronics  
+**Original repo:** https://github.com/DivyavardhanSingh/ROBOCON-2025-main  
+**Timeline:** Built Nov 2024 – Jul 2025. Documentation added Oct 2026.
+
 - **Omnidirectional drive, both robots:** 4-wheel omni (45°) inverse kinematics and field-centric drive on R1, and 3-wheel omni (120°) kinematics with heading lock on R2.
   - `r1_offense/ros_ws/motion_controller.py`
   - `r2_defense/firmware/due_omni_controller/due_omni_controller.ino`
@@ -20,13 +25,10 @@
 - **Inter-controller communication:** ESP32 odometry streamed to the Raspberry Pi over USART, the Pi to upper-control ESP32 link, and ESP32 to Arduino Due via EasyTransfer.
   - `r1_offense/firmware/esp32_odometry_rtos/`
   - `docs/ARCHITECTURE.md`
-- **Circuit design:** [power distribution, motor driver wiring, ESC and pneumatic connections]
+- **Circuit design:** Control and Power Circuit
   - `docs/HARDWARE.md`
 
-Original repo: [https://github.com/DivyavardhanSingh/ROBOCON-2025-main]
-Timeline: Built Nov 2024 – Jul 2025. Documentation added Oct 2026.
 ---
-
 ## Abstract
 
 This repository presents the complete software and firmware architecture developed for an ABU Robocon 2025 *Robot Basketball* entry. The competition requires two complementary robots: an **offense robot (R1)** that dribbles and shoots, and a **defense robot (R2)** that blocks opposing scores.
